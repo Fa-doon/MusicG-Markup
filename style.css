@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#2a2e41;
+}
+header{
+    background-color: #0f1320;
+    min-height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+h1{
+    float: left;
+    font-size: 25px;
+    line-height: 80px;
+    margin-left: 100px;
+    background: -webkit-linear-gradient(#e7e7e7, #3e13fffb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 60px;
+    display: inline-block;
+    margin-right: 20px; 
+}
+nav ul li a{
+    color: white;
+}
+.nav-2{
+    margin-left: 50px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+ max-width: 100%;
+}
+.banner .welcome{
+    position: absolute;
+    left: 90px;
+    bottom: 25%;
+    color: white;
+}
+.welcome h2{
+    font-size: 40px;
+}
+.welcome p{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+/* buttons */
+.banner button{
+    padding: 12px 15px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: #2d3572fb;
+    border-radius: 15px;
+    border: 0 solid #2d3572fb;
+    cursor: pointer;
+}
+.nav-button{
+    border: 1px #9073fcfb solid;
+    color: white;
+    background: transparent;
+    padding: 5px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.More{
+    color: white;
+    background-color: #9073fcfb;
+    border-radius: 5px;
+    border: 0 solid #2d3572fb;
+    padding: 12px 15px;
+    /* float: right;
+    margin-bottom: 60px; */
+}
+a.active,a:hover{
+    color: #9073fcfb;
+    transition: .5s;
+}
+/* second-banner */
+.container{
+    margin-left: 90px;
+}
+.box-text{
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box-text p{
+    word-spacing: 1px;
+}
+.p-text{
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+}
+.p2-text{
+    font-size: 13px;
+    color: #9073fcfb;
+    margin-bottom: 10px;
+}
+.box{
+    float: left;
+    margin-right: 50px;
+}
+.imagery{
+    border-radius: 7px;
+}
+
+/* third section */
+/* .random{
+    background-color: #341980;
+    clear: both;
+} */
